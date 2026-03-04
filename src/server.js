@@ -2,7 +2,8 @@ import express from "express"
 import myplantsRoutes from "./routes/myplantsRoutes.js"
 const app = express ();
 
-app.use("/api/myplants", myplantsRoutes)
+app.use("/api/myplants", myplantsRoutes);
+
 
 
 
